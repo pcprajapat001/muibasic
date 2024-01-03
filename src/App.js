@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Form from "./components/Form";
+import Nav from "./components/Nav";
+import CardDesign from "./components/CardDesign";
+import DialogBox from "./components/DialogBox";
+import ModelComp from "./components/ModelComp";
+import Accor from "./components/Accor";
+import AutoCom from "./components/AutoCom";
+import DrawerMenu from "./components/DrawerMenu";
+import SnakeBarMenu from "./components/SnakeBarMenu";
+import Quiz from "./components/Quiz";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Quiz />
     </div>
   );
 }
